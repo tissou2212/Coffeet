@@ -1,0 +1,83 @@
+/* header  */
+
+   /* on va centrer le logo au milieu   */
+   /* Faire une ligne par menu   */
+   /* Reduire la taille des menus   */
+
+   /* 1- on va retirer le floating du logo => le h1 va devenir en display bloc (il va prendre tout l'espace disponible donc on peut centrer le texte.  */
+   .header nav h1 {
+      float: none ; 
+      text-align: center;
+   }
+
+   /* 2- on va retirer le floating du menu */
+   .header nav ul {       
+      float: none; 
+   }
+
+   .header nav ul li {    
+      float: none;        
+   }
+   
+   /* 3- reduire la taille des liens du menu */
+   .header nav ul li a {
+      padding: 10px;
+      text-align: center; /* center les liens */
+   }
+
+/* Partie Centrale (vp )*/
+
+/* Reduire le padding du haut */
+.vp-content{
+   padding-top: 50px;
+}
+
+/* Reduire la taille du texte */
+.vp-content h1{
+   font-size: 2rem;
+}
+
+ /* features */
+
+ .feature{
+   float: none;
+   width: 100%;
+   margin-bottom: 2rem;
+ }
+
+ /* reservation */
+
+ .reservation{
+   padding: 100px 0px 100px 0px;
+   text-align: center;
+  }
+
+
+  /* Page Nous trouver  */
+
+  .where{
+   padding:80px 20px 50px 20px ;
+   overflow: auto;
+   min-height: 100vh;
+}
+
+.where-img{
+   float: none;
+   width: 80%;
+   border-radius: 5px;
+   margin-bottom: 3rem;
+   display: block;
+   margin: auto;
+}
+
+.where-text{
+   float: none;
+   padding: 50px 0px 50px 0px;
+   width: 100%;
+}
+
+/* contact  */
+.contact {
+   padding: 50px 0px 50px 0px;
+   min-height: 100vh;
+ }

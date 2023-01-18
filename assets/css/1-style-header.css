@@ -1,0 +1,65 @@
+/* rest  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general  */
+
+html, 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+/* header  */
+ .header{
+    background: #006241;
+    overflow: auto;
+    line-height: 1.7em;
+ }
+
+ .header nav h1 {       
+    float: left;        /* le logo va flotter a gauche*/
+    padding: 20px ;
+    margin-bottom:0 ;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+ }
+
+ .header nav h1 a {    
+    color : white;
+ }
+ .header nav ul {       
+    float: right;       /* le ul de la nav va flotter a droite*/
+    list-style: none;
+ }
+
+ .header nav ul li {    
+    float: left;        /* retirer l'affichage en bloc des li de la ul de la nav, ils vont etre en une seule ligne*/
+ }
+
+ .header nav ul li a {
+    color: white;
+    padding: 20px;
+    display: block;
+ }
+
+ .header nav ul li a:hover{
+    background: #1e3932;
+ }
+
+ .active{
+    background: #1e3932;
+ }
